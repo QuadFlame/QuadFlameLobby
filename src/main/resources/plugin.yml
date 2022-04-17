@@ -1,0 +1,22 @@
+name: QuadFlameLobby
+version: '${project.version}'
+main: com.quadflame.quadflamelobby.QuadFlameLobby
+api-version: 1.8.8
+prefix: [ QuadFlameLobby ]
+authors: [ Quad_Flame ]
+description: Default lobby server plugin by Quad Flame
+website: https://youtube.com/c/QuadFlame
+commands:
+  lobby:
+    description: Teleports player to spawn in the lobby
+    usage: /<command>
+    aliases:
+      - l
+      - hub
+      - zoo
+      - home
+  gui:
+    description: Opens lobby gui
+    usage: /<command>
+    aliases:
+      - selector
